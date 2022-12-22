@@ -30,10 +30,10 @@ function App() {
       })
       .then((response) => {
         setNotification({
-          email: response.data.email.split('|')[0],
-          password: response.data.password.split('|')[0],
-          phone: response.data.phone.split('|')[0],
-          dob: response.data.dob.split('|')[0],
+          email: response.data.Email.split('|')[0],
+          password: response.data.Password.split('|')[0],
+          phone: response.data.Phone.split('|')[0],
+          dob: response.data.DoB.split('|')[0],
         });
       });
   };
